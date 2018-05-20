@@ -1,0 +1,61 @@
+body, 
+html {
+	height: 100%;
+	width: 100%;
+}
+
+hr {
+	width: auto;
+	border-color: rgba(255,255,255, 0.5);
+	border-width: 5px;
+}
+
+.bground {
+	background-position: center;
+	background-image: url("TASCropped.jpg");
+	background-size: cover;
+	height: 100%;
+}
+
+.textbox {
+	text-align: center;
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 2rem;
+	font-weight: 600;
+}
+
+.btn {
+	font-weight: 700;
+	color: rgba(85, 19, 0, 0.8);
+	background-color: rgba(255,255,255,0.7);
+	border-color: rgba(212, 130, 106, 0.5);
+	transition: 0.2s;
+}
+
+#mybutton .btn-primary:hover {
+	color: rgba(85, 19, 0, 0.8);
+	background-clip: padding-box;
+	background-color: rgba(255,255,255,0.8);
+	border-color: rgba(212, 130, 106, 0.5);
+	border-width: 5px;
+}
+
+#mybutton .btn-primary:active {
+	color: rgba(85, 19, 0, 0.8);
+	background-clip: padding-box;
+	background-color: rgba(255,255,255,0.8);
+	border-color: rgba(212, 130, 106, 0.5);
+	border-width: 10px;
+}
+
+#mybutton .btn-primary:focus {
+	box-shadow: 0 0 0 0.1rem yellow;
+}
+
+
+
+
+
+
+
+
