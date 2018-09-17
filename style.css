@@ -24,6 +24,11 @@ hr {
 	font-weight: 600;
 }
 
+.button-container {
+	display: flex;
+	align-items: justify;
+
+}
 
 
 
